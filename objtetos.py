@@ -14,8 +14,8 @@ class Usuario:
     def getNombre(self):
         return self.nombre 
 
-    def setDineroAhorrado(self, nombre):
-        self.nombre = nombre
+    def setDineroAhorrado(self, DineroAhorrado):
+        self.DineroAhorrado = DineroAhorrado
 
     def getApellido(self):
         return self.apellido
